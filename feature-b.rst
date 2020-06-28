@@ -45,24 +45,6 @@ The following is a code block::
 
 
 
-.. code-block:: 
-
-   def hello():
-      print("Hello world")
-
-
-And here shows some C code 
-
-.. code-block:: 
-
-   #include <stdio.h>
-   int main()
-   {
-       printf("Hello, World!");
-       return 0;
-   }
-
-
 ..You could include the contents of an external file using literalinclude directive, as follows:
  [.. literalinclude:: filename]
  It is possible to combine literalinclude with code highlighting, line numbering, and even line highlighting.
